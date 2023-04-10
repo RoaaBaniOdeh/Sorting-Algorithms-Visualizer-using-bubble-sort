@@ -1,0 +1,91 @@
+
+
+.slidecontainer {
+    width: 20%; /* Width of the outside container */
+  }
+  
+  /* The slider itself */
+  .slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    width: 20%; /* Full-width */
+    height: 25px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+
+  }
+  p,.slider,label{
+    padding: 10px;
+
+  }
+  /* Mouse-over effects */
+  .slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+  
+  /* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+
+  * {
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+ 
+ h1{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+  #all{
+
+    text-align: center;  
+    width: 100% ;
+    height: 100%;  
+    padding-top: 100px;
+}
+#bars {
+    background-color: white;
+    height: 413px;
+    width: 598px;
+    margin: auto;
+    position: relative;
+    margin-top: 64px;
+}
+  
+.block {
+    width: 20px;
+    background-color: #6b5b95;
+    position: absolute;
+    bottom: 0px;
+    margin: 8px;
+    transition: 0.2s all ease;
+}
+  
+.block_id {
+    position: absolute;
+    color: black;
+    margin-top: -50px;
+    
+    width: 100%;
+    text-align: center;
+}
